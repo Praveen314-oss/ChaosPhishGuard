@@ -9,8 +9,8 @@ The system predicts whether a website is **Legitimate (0)** or **Phishing (1)** 
 
 ### Step 1: Clone the Repository
 ```bash
-1.git clone https://github.com/your-username/AI-Phishing-URL-Detection.git
-2.cd AI-Phishing-URL-Detection
+1.git clone https://github.com/Praveen314-oss/ChaosPhishGuard.git
+2.cd ChaosPhishGuard
 Step 2: Install Dependencies
 3.pip install -r requirements.txt
 Step 3: Train the Phishing Detection Model
@@ -76,6 +76,7 @@ Algorithm: Random Forest Classifier
 Accuracy: ~91%
 
 Type: Supervised Machine Learning
+
 
 
 
