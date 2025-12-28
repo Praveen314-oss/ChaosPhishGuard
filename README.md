@@ -20,26 +20,17 @@ Step 3: Train the Phishing Detection Model
 Run the training script to train the model and save it:
 
 bash
-Copy code
+
 python phish_detector.py
 Expected Output:
-
-makefile
-Copy code
 Accuracy: ~91%
 Model trained and saved successfully!
 Step 4: Predict a URL
 Run the prediction script to test new URLs:
-
-bash
-Copy code
 python predict_url.py
 Example Input & Output:
-
-
 Enter website URL: http://secure-login-paypal.verify-user.com
 Prediction: Phishing (1)
-
 Enter website URL: https://www.google.com
 Prediction: Legitimate (0)
 
@@ -91,4 +82,5 @@ Algorithm: Random Forest Classifier
 Accuracy: ~91%
 
 Type: Supervised Machine Learning
+
 
