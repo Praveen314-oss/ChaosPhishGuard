@@ -9,25 +9,19 @@ The system predicts whether a website is **Legitimate (0)** or **Phishing (1)** 
 
 ### Step 1: Clone the Repository
 ```bash
-git clone https://github.com/your-username/AI-Phishing-URL-Detection.git
-
-cd AI-Phishing-URL-Detection
-
+1.git clone https://github.com/your-username/AI-Phishing-URL-Detection.git
+2.cd AI-Phishing-URL-Detection
 Step 2: Install Dependencies
-
-pip install -r requirements.txt
+3.pip install -r requirements.txt
 Step 3: Train the Phishing Detection Model
 Run the training script to train the model and save it:
-
-bash
-
-python phish_detector.py
+4.python phish_detector.py
 Expected Output:
 Accuracy: ~91%
 Model trained and saved successfully!
 Step 4: Predict a URL
 Run the prediction script to test new URLs:
-python predict_url.py
+5.python predict_url.py
 Example Input & Output:
 Enter website URL: http://secure-login-paypal.verify-user.com
 Prediction: Phishing (1)
@@ -82,5 +76,6 @@ Algorithm: Random Forest Classifier
 Accuracy: ~91%
 
 Type: Supervised Machine Learning
+
 
 
