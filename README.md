@@ -49,8 +49,7 @@ Handled dataset preprocessing and trained the model on a real-world dataset.
 Note: Some parts of the training and prediction scripts were generated with AI assistance (ChatGPT), and I adapted and executed them for this project.
 
 📂 Project Structure
-bash
-Copy code
+
 AI-Phishing-URL-Detection/
 │
 ├── phishing.csv           # Dataset of URLs and labels
@@ -76,6 +75,7 @@ Algorithm: Random Forest Classifier
 Accuracy: ~91%
 
 Type: Supervised Machine Learning
+
 
 
 
